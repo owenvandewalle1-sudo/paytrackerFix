@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "paytracker",
+  "version": "${version}",
+  "name": "Pay Tracker",
+  "description": "DonutSMP only: colors payment messages and shows your profit. Client-side only.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.paytracker.PayTracker"]
+  },
+  "mixins": ["paytracker.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
